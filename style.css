@@ -1,0 +1,49 @@
+:root {
+  --primary-color: royalblue;
+}
+
+* {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 50px;
+  position: absolute;
+  top: 0.5px;
+  left: 400px;
+}
+
+.palindrome-checker-container {
+  background-color: aliceblue;
+  width: 400px;
+  height: 150px;
+  border-radius: 5%;
+  border: 5px solid #100;
+  box-shadow: -30px 30px 10px #100;
+  position: absolute;
+  left: 425px;
+  top: 100px;
+}
+
+.palindrome-defintion {
+  position: absolute;
+  top: 60vh;
+  left: 75vh;
+  width: 75vh;
+  background-color: rebeccapurple;
+  color: aliceblue;
+  border-radius: 5%;
+  border: 5px solid #100;
+  box-shadow: -30px 30px 10px #100;
+}
+
+.palindrome-text {
+  border: none;
+  border-bottom: 2px solid var(--primary-color);
+}
